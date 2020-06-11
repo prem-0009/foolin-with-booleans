@@ -7,7 +7,7 @@ const learning=true;
 const killingIt=iGetTheJoke && havingFun;
 
 function returnFalse(boolean){
-  return !iGetTheJoke;
+  return false;
 }
 
 function isOpposite(boolean){
