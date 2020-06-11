@@ -1,8 +1,42 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+const iGetTheJoke=true;
+const havingFun=true;
+const learning=true;
+const killingIt=iGetTheJoke && havingFun;
 
+function returnFalse(boolean){
+  return !iGetTheJoke;
+}
 
+function isOpposite(boolean){
+  return !boolean;
+}
+
+function both(bool1,bool2){
+  return bool1 && bool2;
+}
+
+function either(bool1,bool2){
+  return bool1 || bool2;
+}
+
+function firstOnly(bool1,bool2){
+  return bool1 && !bool2;
+}
+
+function secondOnly(bool1,bool2){
+  return !bool1 && bool2;
+}
+
+function neither(bool1,bool2){
+  return !bool1 && !bool2;
+}
+
+function itsComplicated(bool1,bool2,bool3){
+  return !bool1 ||  (bool2 && bool3);
+}
 
 
 
