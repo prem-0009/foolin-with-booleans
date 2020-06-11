@@ -5,6 +5,7 @@ const iGetTheJoke=true;
 const havingFun=true;
 const learning=true;
 const killingIt=iGetTheJoke && havingFun;
+killingIt;
 
 function returnFalse(boolean){
   return false;
